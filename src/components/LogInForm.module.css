@@ -1,0 +1,11 @@
+.formcontainer {
+    max-width: 900px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid rgb(238, 146, 146);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+}

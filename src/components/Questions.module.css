@@ -1,0 +1,24 @@
+.questioncontainer {
+    max-width: 900px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 5px solid rgb(238, 146, 146);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.alignment {
+    vertical-align: auto;
+    text-align: left;
+}
+.alignment input {
+    margin-top: 15px;
+    width: 5%;
+}
+.alignment label {
+    width: 50%;
+    padding: 12px;
+}
