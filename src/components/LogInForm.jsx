@@ -46,7 +46,7 @@ function LogInForm() {
     return (
         <div>
             <form onSubmit={handleSubmit} className={styles.formcontainer}>
-                <h2><O></O>Quiz Time</h2>
+                <h2>Quiz Time</h2>
                 <div>
                     <label htmlFor="name">Frist Name:</label>
                     <input type="text" id="name" name="userName" value={quizData.userName} onChange={handleChange}
